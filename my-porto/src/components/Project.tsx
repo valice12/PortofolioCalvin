@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section id="projects" className="py-20 bg-gray-100 w-full">
       <div className="max-w-5xl mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center mb-10">Projects</h2>
+        <h2 className="text-3xl font-bold text-center mb-10 text-black">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {projects.map((p, index) => (
             <div key={index} className="p-6 bg-white rounded-lg shadow hover:shadow-lg transition">
