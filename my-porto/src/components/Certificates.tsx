@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Certificates() {
-  const  [selectedImage, setSelectedImage] = useState(null);
+  const  [selectedImage, setSelectedImage] = useState<string |null>(null);
 
   const certificates = [
     { title: "Freshmen Leader", issuer: "Freshmen Leader", image: "/Freshmen Leader.png"},
