@@ -31,7 +31,7 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-gray-100 w-full">
+    <section id="projects" className="py-20 bg-gray-100 w-full relative">
       <div className="max-w-5xl mx-auto px-6">
         <h2 className="text-3xl font-bold text-center mb-10 text-black">Projects</h2>
         <div className="grid md:grid-cols-2 gap-6">
@@ -76,6 +76,7 @@ function Projects() {
           </div>
         </div>
       )}
+        <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white to-gray-100 "></div>
     </section>
   );
 }

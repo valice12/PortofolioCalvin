@@ -6,11 +6,31 @@ function About() {
     <section id="about" className="bg-white w-full relative">
 
        {/* Hiasan background */}
-      <div className="absolute top-10 left-10 w-20 h-20 bg-blue-300 rounded-full opacity-50"></div>
-      <div className="absolute bottom-20 right-20 w-32 h-32 bg-purple-400 rounded-full opacity-40"></div>
+      <div className="absolute top-20 left-10 w-40 h-20 bg-blue-300 rounded-full blur-3 opacity-30 -z-5"></div>
+      <div className="absolute top-20 right-10 w-20 h-40 bg-purple-400 rounded-full blur-3 opacity-30 -z-5"></div>
+      <div className="absolute bottom-20 right-10 w-20 h-20 bg-blue-300 rounded-full z-20"></div>
+
+
 
       <svg
         className="absolute top-0 right-0 w-64 h-64 opacity-10"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <pattern
+            id="smallGrid"
+            width="20"
+            height="20"
+            patternUnits="userSpaceOnUse"
+          >
+            <circle cx="2" cy="2" r="2" fill="gray" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#smallGrid)" />
+      </svg>
+
+      <svg
+        className="absolute bottom-0 ;eft-0 w-64 h-64 opacity-10"
         xmlns="http://www.w3.org/2000/svg"
       >
         <defs>
@@ -69,6 +89,8 @@ function About() {
           </div>
         </div>
       </div>
+      
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-gray-100 to-transparent "></div>
     </section> 
   );
 }
