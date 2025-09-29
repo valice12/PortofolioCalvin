@@ -6,9 +6,9 @@ function Projects() {
   const projects = [
     { 
       title: "Portfolio Website", 
-      link: "#", 
-      desc: "Website pribadi dengan React & Tailwind", 
-      image: "/portfolio.png" 
+      link: "https://github.com/Dmajid24/restaurantManagement", 
+      desc: "Pembuatan Website Restaurant Management bersama dengan Backend (not hosted)", 
+      image: "/Software Engineering.png" 
     },
     { 
       title: "Stock Prediction App", 
