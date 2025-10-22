@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <section className="relative w-full h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-500 overflow-hidden">
+    <section className="relative w-full h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-purple-500 overflow-hidden" id="hero">
       <div className="absolute top-10 left-20 w-72 h-72 bg-purple-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
       <div className="absolute bottom-20 right-20 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
       <div className="absolute top-1/2 left-1/2 w-96 h-96 bg-pink-400 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse -translate-x-1/2 -translate-y-1/2"></div>

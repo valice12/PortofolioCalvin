@@ -13,7 +13,6 @@ function Navbar() {
         <ul className="hidden md:flex space-x-6 text-gray-700">
           <li><a href="#hero" className="hover:text-blue-600">Home</a></li>
           <li><a href="#about" className="hover:text-blue-600">About</a></li>
-          <li><a href="#skills" className="hover:text-blue-600">Skills</a></li>
           <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
           <li><a href="#certificates" className="hover:text-blue-600">Certificates</a></li>
           <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
@@ -44,7 +43,6 @@ function Navbar() {
           <ul className="flex flex-col space-y-3 px-4 py-4 text-gray-700">
             <li><a href="#hero" className="hover:text-blue-600">Home</a></li>
             <li><a href="#about" className="hover:text-blue-600">About</a></li>
-            <li><a href="#skills" className="hover:text-blue-600">Skills</a></li>
             <li><a href="#projects" className="hover:text-blue-600">Projects</a></li>
             <li><a href="#certificates" className="hover:text-blue-600">Certificates</a></li>
             <li><a href="#contact" className="hover:text-blue-600">Contact</a></li>
